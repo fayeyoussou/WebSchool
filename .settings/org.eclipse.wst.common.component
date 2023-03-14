@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="WebSchool">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="school_ejb.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/school_ejb/school_ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="WebSchool"/>
+        <property name="java-output-path" value="/WebSchool/build/classes"/>
+    </wb-module>
+</project-modules>
